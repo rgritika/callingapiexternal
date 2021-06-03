@@ -2,7 +2,7 @@
 
 # Installation
 
-1. Clone github repo as https://github.com/rg85rajat/callingapi
+1. Clone github repo as https://github.com/rg85rajat/callingapiexternal
 
 2. change the dir to callingapi/frontend
 
@@ -11,17 +11,18 @@
 # Code Snippets
 
 
-![Capture2](https://user-images.githubusercontent.com/72291911/120693973-492aa680-c4c7-11eb-9edc-00f92ea0bb56.JPG)
+ <img width="666" alt="rghj" src="https://user-images.githubusercontent.com/62470318/120701628-b4c54180-c4d0-11eb-9344-3ee4590ca455.PNG">
 
- From the backend, calling external API which is deployed to return the results to front-end.
+From the backend, calling external API which is deployed to return the results to front-end.
  
- ![Capture3](https://user-images.githubusercontent.com/72291911/120694888-51cfac80-c4c8-11eb-9b25-30d96fe07966.JPG)
+<img width="544" alt="haoo" src="https://user-images.githubusercontent.com/62470318/120701787-ec33ee00-c4d0-11eb-9a86-6231d2a7dbd5.PNG">
+
 
  Call an external API to get the pass/fail result, as http://proedge.me/test.php?rollnumber
  
  # Output
- 
- ![Capture](https://user-images.githubusercontent.com/72291911/120696506-467d8080-c4ca-11eb-9234-7d8afb6007b1.JPG)
+<img width="954" alt="oops" src="https://user-images.githubusercontent.com/62470318/120702395-a7f51d80-c4d1-11eb-8107-da63d480872b.PNG">
+
 
 A frontend that accepts a comma-separated list of roll numbers and on entering the value and pressing submit, a request should be sent to the backend and displaying the roll numbers and their result in a tabular format
 
