@@ -2,7 +2,7 @@
 
 # Installation
 
-1. Clone github repo as https://github.com/rg85rajat/callingapi
+1. Clone github repo as https://github.com/rg85rajat/callingapiexternal
 
 2. change the dir to callingapi/frontend
 
@@ -11,9 +11,9 @@
 # Code Snippets
 
 
-![Capture2](https://user-images.githubusercontent.com/72291911/120693973-492aa680-c4c7-11eb-9edc-00f92ea0bb56.JPG)
+ <img width="666" alt="rghj" src="https://user-images.githubusercontent.com/62470318/120701628-b4c54180-c4d0-11eb-9344-3ee4590ca455.PNG">
 
- From the backend, calling external API which is deployed to return the results to front-end.
+From the backend, calling external API which is deployed to return the results to front-end.
  
  ![Capture3](https://user-images.githubusercontent.com/72291911/120694888-51cfac80-c4c8-11eb-9b25-30d96fe07966.JPG)
 
