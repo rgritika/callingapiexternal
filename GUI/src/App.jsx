@@ -12,12 +12,12 @@ export default function App() {
         setInputValue(rollNum)
         if(inputValue!==""){
             console.log(inputValue)
-            fetch("https://ancient-tor-34194.herokuapp.com/https://callmeapi.herokuapp.com/"+inputValue)
-			.then(response => response.json())
-			.then(data => {
+            fetch("https://ancient-tor-34194.herokuapp.com/https://proapirg.herokuapp.com/"+inputValue)
+            .then(response => response.json())
+            .then(data => {
                 setValue(data)
                 console.log(data)
-			});
+            });
         }else{
             console.log("No input")
         }
@@ -32,10 +32,10 @@ export default function App() {
      }
     return (
         <div  style={{backgroundColor: "lightpink",textAlign:"center"}}>
-        <h1> Proedge Hiring Assessment </h1>
-            <input className="input"onChange={handleChange} type="text" style={{width:"250px",height:"100px"}} placeholder="Enter N numbers (sepearated by comma)"/>
+        <h1> Proedge: Calling API</h1>
+            <input className="input"onChange={handleChange} type="text" style={{width:"250px",height:"100px"}} placeholder="Enter any number/s seperated by comma."/>
 
-            <p> Click on submit button twice to see the magic ! </p>
+            <p> Click on submit button twice and wait for a while as fetching may take time. </p>
             
             <br />
             <button onClick={change} className="btn">Submit</button>
